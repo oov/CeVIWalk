@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "noEmitHelpers": true
+  },
+  "formatCodeOptions": {
+    "indentSize": 3,
+    "tabSize": 3,
+    "newLineCharacter": "\n",
+    "convertTabsToSpaces": true,
+    "insertSpaceAfterCommaDelimiter": true,
+    "insertSpaceAfterSemicolonInForStatements": true,
+    "insertSpaceBeforeAndAfterBinaryOperators": true,
+    "insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+    "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "placeOpenBraceOnNewLineForFunctions": true,
+    "placeOpenBraceOnNewLineForControlBlocks": true
+  },
+  "compileOnSave": true,
+  "filesGlob": [
+    "./**/*.ts",
+    "!./node_modules/**/*.ts",
+    "!./bower_components/**/*.ts",
+    "!./typings/**/*.ts"
+  ],
+  "files": [
+    "./ceviwalk.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
